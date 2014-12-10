@@ -7,7 +7,7 @@ from sklearn import svm
 from nltk.tokenize import WordPunctTokenizer
 
 '''This script takes as input a three column training file, with col_one = English string, col_two = French string, and col_three 0/1 value
-that indicates whether English is plagiarism of French or not. It uses aggregate_features.py to extract features, and feeds the extracted
+that indicates whether English is a plagiarism of French or not. It uses aggregate_features.py to extract features, and feeds the extracted
 features to an SVM via sci-kit learn. It then returns the trained classifier, which may be called further in the pipeline.'''
 
 ############################ 
